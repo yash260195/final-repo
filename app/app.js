@@ -22,6 +22,7 @@ app.use(require('./routes/apievidence'));
 app.use(require('./routes/moderator'));
 app.use(require('./routes/apimoderator'));
 app.use(require('./routes/login'));
+app.use(require('./routes/apilogin'));
 
 var server = app.listen(app.get('port'), function(){
 	console.log('listening on port ' + app.get('port'));

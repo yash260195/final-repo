@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- <link rel='stylesheet' href='/css/login1.css' />
+//<script src="partials/template/login1.js"></script>
+//<script type="text/javascript">
+ -->
+<html>
+    <body>
+    <form>
+    <table width="20%" bgcolor="0099CC" align="center">
+    
+    <tr>
+    <td colspan=2><center><font size=4><b>Serler Login Page</b></font></center></td>
+    </tr>
+    
+    <tr>
+    <td>Username</td>
+    <td><input type="text" size=25 name="userid"></td>
+    </tr>
+    
+    <tr>
+    <td>Password:</td>
+    <td><input type="Password" size=25 name="pwd"></td>
+    </tr>
+    
+    <tr>
+    <td ><input type="Reset"></td>
+    <td><input type="submit" onclick="check(this.form)" value="Login"></td>
+    </tr>
+    
+    </table>
+    </form>
+    <script language="javascript">
+    function check(form)
+    {
+    
+    if(form.userid.value == "Roseindia" && form.pwd.value == "Roseindia")
+    {
+    window.open('/articles')
+    }
+    else
+    {
+    alert("Error Password or Username")
+    }
+    }
+    </script>
+    
+    </body>
+    </html>
